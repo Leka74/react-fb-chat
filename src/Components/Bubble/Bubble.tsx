@@ -1,6 +1,6 @@
 import * as React from 'react';
-import './Bubble.css';
 import BubbleAction from '../BubbleAction/BubbleAction';
+import './Bubble.css';
 
 interface IBubbleProps {
 	side: "left" | "right";

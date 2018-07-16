@@ -1,7 +1,7 @@
 import * as React from 'react';
-import './App.css';
 import Bubble from '../../Components/Bubble/Bubble';
 import Input from '../../Components/Input/Input';
+import './App.css';
 
 interface IMessage {
   text: string,
