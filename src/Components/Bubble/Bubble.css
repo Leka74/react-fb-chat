@@ -1,0 +1,39 @@
+.bubble-container {
+    /* background-color: pink; */
+    margin-bottom: 5px;
+    overflow: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.bubble-container:first-child {
+    margin-top: 5px;
+}
+
+.bubble {
+    padding: 8px 10px;
+    border-radius: 15px;
+    max-width: 60%;
+    display: flex;
+}
+
+.left {
+    background-color: #f1f0f0;
+    color: #4b4f56;
+    float: left;
+}
+
+.right {
+    background-color: #4080ff;
+    color: white;
+    float: right;
+}
+
+.seen {
+    font-size: 12px;
+    clear: both;
+    float: right;
+    color: grey;
+    font-family: Helvetica;
+    margin-right: 5px;
+}
